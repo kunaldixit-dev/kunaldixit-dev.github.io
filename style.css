@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(46, 44, 44, 0.911);
+    background-image: url(pexels-toni-cuenca-585752.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: inherit;
+    background-size: cover;
+}
+.container {   
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    padding-top: 20px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navlinks {
+    display: flex;
+    margin-right: auto;
+    height: 40px;  
+}
+
+.navlinks a {
+    margin-right: 200px;
+    
+}
+
+.navlinks button {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right:40px;
+    color: white;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-20%);
+    border: none;
+    padding: 0;
+    outline: none;
+}
+.tab {
+    margin: 2px;
+    padding: 2px;
+}
+
+.navlinks a {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.dropdown a {
+    color: white;
+    font-weight: bold;
+}
+
+.tab:hover {
+    background-color: tomato;
+    border-radius: 0.5rem;
+  
+}
+
+.dropdown a:hover {
+    background-color: gray;
+    border-radius: 0.5rem;
+    margin: 2px;
+    padding: 2px;
+}
+
+.navlink:hover .dropdown {
+    display: block;
+}
+
+.sidepanel {
+    height: 250px;
+    width: 0;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: thick;
+    box-shadow: black;
+    
+}
+
+.sidepanel a {
+    margin: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+
+}
+
+.collapsePanel { 
+    font-size: larger;
+    height: 40px;
+    color: black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapsePanel a {
+    justify-content: space-between;
+    margin-top: 10px;
+   
+    
+}
+
+
+.panelbutton {
+    height: 100%;
+    width: 25px;
+    background-color: black;
+    border-color: black;
+    transition: 0.8s;
+}
+
+
+
+.dropdown {
+    margin: 0.1rem;
+    padding: 0.3rem;
+    background-color: black;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 0.5rem;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    display: none;
+}
+
+.dropdown a {
+    margin: 0;
+}
+
+.container1 {
+    width: fit-content;
+    margin-top: 70px;
+    margin-left: 30px;
+    display: block;
+
+
+}
+.container1 h1 {
+
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: tomato;
+}
+
+.container1 p {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container1 button {
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20vh;
+    height: 60px;
+    width: 100px;
+    color: white;
+    font-weight: bolder;
+    padding: 0;
+    outline: none;
+}
+
+.container1 h3 {
+    font-size: large;
+    position: absolute;
+    right: 90px;
+    top: 200px;
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(25px);
+}
+
+.page2 {
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    height: 100%;
+    background-image: url(pexels-bryan-catota-3756766.jpg);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.delivery {
+    position: absolute;
+    top: 50vh;
+    left: 35%;
+}
+
+.delivery {
+    color: white;
+    font-size: larger;
+    background: transparent;
+    backdrop-filter: blur(25px);
+    display: block;
+    text-align: center;
+}
+
+.delivery button {
+    background-color: tomato;
+    outline: none;
+    border: 10px;
+    border-radius: 0.5vh;
+    height: 30px;
+    width: 60px;
+    
+}
+
+.delivery button:active {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.page3 {
+    position: absolute;
+    top: 200vh;
+    width: 100%;
+    height: 100%;
+    background-image: url(pexels-louis-2101187.jpg);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.dinein {
+    position: absolute;
+    top: 50vh;
+    left: 40%;
+    color: black;
+    font-size: larger;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display: block;
+    text-align: center;
+}
+
+.dinein button {
+    background-color: tomato;
+    outline: none;
+    border: 10px;
+    border-radius: 0.5vh;
+    height: 30px;
+    width: 60px;
+    
+}
+
+.dinein button:active {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
